@@ -5,7 +5,7 @@ Code and dataset coming soon
 
 [**Project**](https://github.com/haizhu12/SDE-RAE) | [**Paper**](coming soon)
 
-# SDE-RAE: Image reconstruction and edit Networks for Stochastic Differential Equation Optimization
+# SDE-RAE
 PyTorch implementation of SDE-RAE 
  
 
