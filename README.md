@@ -39,6 +39,10 @@ Here is the [PyTorch implementation](https://github.com/ermongroup/ddim) for tra
 ### dataset
 Here is the dataset [celeba-HQ](https://paperswithcode.com/dataset/celeba-hq) And [lsun](https://www.yf.io/p/lsun)
 
+### pretrained
+download pretrained [pretrained](https://pan.baidu.com/s/1MSegzm-7SprYBKG0Bg1whA?pwd=k8gb) 提取码：k8gb
+
+unzip to "./pretrained"
 ### TRAINING:
 Download clip-encoder, unzip it to model_fast [clip-encoder](https://pan.baidu.com/s/1U17dgOoH5HiFImwsI0E0fg?pwd=7gyz 
 )提取码：7gyz
