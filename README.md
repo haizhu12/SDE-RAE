@@ -43,7 +43,12 @@ Here is the dataset [celeba-HQ](https://paperswithcode.com/dataset/celeba-hq) An
 Download clip-encoder, unzip it to model_fast [clip-encoder](https://pan.baidu.com/s/1U17dgOoH5HiFImwsI0E0fg?pwd=7gyz 
 )提取码：7gyz
 ```
-python train_fast.py --content_dir ./datasets/celeba_train --npy_name celeba --config bedroom.yml --max_iter 10000 --batch_size 4
+python train_fast.py --content_dir ./datasets/celeba_train --npy_name celeba --num_test 16 --decoder ./model_fast/clip_decoder_pencil.pth.tar
+```
+### TESTING:
+
+```
+python test_fast.py --content_dir ./datasets/celeba_test --npy_name celeba --config celeba.yml --max_iter 10000 --batch_size 4
 ```
 
 ### method:
