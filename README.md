@@ -7,17 +7,20 @@ Code and dataset coming soon
 # SDE-RAE: Image reconstruction and edit Networks for Stochastic Differential Equation Optimization
 PyTorch implementation of SDE-RAE 
  
-  <img src='https://instruct-pix2pix.timothybrooks.com/teaser.jpg'/>
+
+![IVC_first_1](https://github.com/haizhu12/SDE-RAE/assets/93024130/1f40f089-bba2-437e-b4a3-ffa1086f147f)
+
 
 ## TL;DR: quickstart 
 
-Follow the instructions below to download and run InstructPix2Pix on your own images. These instructions have been tested on a GPU with >18GB VRAM. If you don't have a GPU, you may need to change the default configuration, or check out [other ways of using the model](https://github.com/timothybrooks/instruct-pix2pix#other-ways-of-using-instructpix2pix). 
+Follow the instructions below to download and run SDE-RAE on your own local. These instructions have been tested on a GPU with >18GB VRAM. If you don't have a GPU, you may need to change the default configuration.
 
 ### Set up a conda environment, and download a pretrained model:
 ```
-conda env create -f environment.yaml
-conda activate ip2p
-bash scripts/download_checkpoints.sh
+conda env create -n sde_rae
+conda activate sde_rae
+pip install torch==1.9.1+cu111 torchvision==0.10.1+cu111 torchaudio==0.9.1 -f https://download.pytorch.org/whl/torch_stable.html
+[pytorch](https://pytorch.org/get-started/previous-versions/)
 ```
 
 ### Edit a single image:
